@@ -1,0 +1,263 @@
+/*Pizzaz Pizzeria*/
+   /*Start Body*/
+    body {
+    background-color: rgba(230, 243, 255, 0.616);
+    }
+
+/*Start Nav*/
+    nav {
+        border-style: solid;
+        border-block-color: #000;
+        
+    }
+/*End Nav*/
+
+/*Start Hero*/
+.hero-image img{
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+}
+.text-block {
+    font-size: 60px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+/*End Hero*/
+
+/*Start Size*/
+#size {
+    padding: 20px;
+    font-size: 30px;
+    text-align: left; 
+}
+
+#size p {
+    padding: 60px;
+    text-align: center;
+}
+.grid-container {
+    border-style: solid;
+    border-block-color: #000;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+  
+.grid-item {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 20px;
+}
+
+/*End Size*/
+
+/*Start Crust*/
+#crust {
+    padding: 20px;
+    font-size: 30px;
+    text-align: left; 
+}
+
+#crust p {
+    padding: 60px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+  
+.grid-item {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 20px;
+}
+/*End Crust*/
+
+/*Start Cheese*/
+#cheese {
+    padding: 20px;
+    font-size: 30px;
+    text-align: left; 
+}
+
+#cheese p {
+    padding: 60px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+  
+.grid-item {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 20px;
+}
+/*End Cheese*/
+
+/*Start Sauce*/
+#sauce {
+    padding: 20px;
+    font-size: 30px;
+    text-align: left; 
+}
+
+#sauce p {
+    padding: 60px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+  
+.grid-item {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 20px;
+}
+/*End Sauce*/
+
+/*Start Meat*/
+#meat {
+    padding: 20px;
+    font-size: 30px;
+    text-align: left; 
+}
+
+#meat p {
+    padding: 60px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+  
+.grid-item {
+    color: #000;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 20px;
+}
+/*End Meat*/
+
+/*Start Veggie*/
+#veggie {
+    padding: 20px;
+    font-size: 30px;
+    text-align: left; 
+}
+
+#veggie p {
+    padding: 60px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+  
+.grid-item {
+    color: #000;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 20px;
+}
+/*End Veggie*/
+
+/*Start Order*/
+#order {
+    padding: 20px;
+    font-size: 30px;
+    text-align: left; 
+}
+
+#order .container {
+    padding: 40px;
+}
+
+#order p {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.btn-container{
+align-items: center;
+padding-bottom: 40px;
+}
+
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: rgb(76, 102, 175);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #162557}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px rgb(102, 102, 102);
+    transform: translateY(4px);
+  }
+/*End Order*/
+
+/*Start Receipt*/
+#getReceipt {
+    display: none;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+/*End Receipt*/
+
+/*Start Footer*/
+footer {
+    padding: 40px;
+}
+/*End Footer*/
+
+/*Start Checkbox*/
+
+/*End Checkbox*/

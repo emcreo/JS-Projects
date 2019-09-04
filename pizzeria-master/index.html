@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Pizzaz Pizzeria</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    <style></style>
+    
+    </head>
+
+    <!--Start Body-->
+    <body id="body">
+        
+    <!--Start Nav-->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Pizzaz<br>Pizzeria</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">home</span></a>
+                <a class="nav-item nav-link" href="#size">Size</a>
+                <a class="nav-item nav-link" href="#crust">Crust</a>
+                <a class="nav-item nav-link" href="#cheese">Cheese</a>
+                <a class="nav-item nav-link" href="#sauce">Sauce</a>
+                <a class="nav-item nav-link" href="#meat">Meat</a>
+                <a class="nav-item nav-link" href="#veggie">Veggies</a>
+                <a class="nav-item nav-link" href="#order">Place Order</a>
+                <a class="nav-item nav-link" href="#receipt">Receipt</a>
+                <a class="nav-item nav-link" href="#footer"></a>
+              </div>
+            </div>
+          </nav>
+    <!--End Nav-->
+
+    <!--Start Hero-->
+    <div class="hero-image">
+        <img src="img/pizza.jpg">
+          <div class="text-block">Pizzaz Pizzeria<br>
+            The best pizza around.<br>Voted #1 by Cusines Today
+            <br>3 years in a row.
+          </div>  
+    </div>
+    <!--End Hero-->
+    <!--End Hero-->
+
+    <!--Start Size-->
+    <div id="size" class="container">
+      <p><em>Start here and select your size pizza.</em></p>
+    </div>
+    <div class="grid-container">
+        <div class="grid-item">
+          <input class="size" type="radio" name="size" value="personal">Personal<br>$6</div>
+        <div class="grid-item">
+            <input class="size" type="radio" name="size" value="medium"> Medium<br>$10</div>
+        <div class="grid-item">
+            <input class="size" type="radio" name="size" value="large">Large<br>$14</div>  
+        <div class="grid-item">
+            <input class="size" type="radio" name="size" value="xl">X-Large<br>$16</div>
+    </div>
+    <!--End Size-->
+
+    <!--Start Crust-->
+    <div id="crust" class="container">
+        <p><em><strong>Crust: </strong>  Now choose a crust.</em></p>
+    </div>
+      <div class="grid-container">
+          <div class="grid-item">
+              <input class="crust" type="radio" name="crust" value="plain"> Plain</div>
+          <div class="grid-item">
+              <input class="crust" type="radio" name="crust" value="garlic">Garlic Butter</div>
+          <div class="grid-item">
+              <input class="crust" type="radio" name="crust" value="spicy">Spicy</div>
+          <div class="grid-item">
+              <input class="crust" type="radio" name="crust" value="house">House Special</div>
+          <div class="grid-item">
+              <input class="crust" type="radio" name="crust" value="stuffed">Cheese Stuffed<br>extra $3</div>
+      </div>
+    <!--End Crust-->
+
+    <!--Start Cheese-->
+    <div id="cheese" class="container">
+        <p><em><strong>Cheese: </strong>  Next, let's cheese it up!</em></p>
+    </div>
+      <div class="grid-container">
+          <div class="grid-item">
+              <input class="cheese" type="radio" name="cheese" value="chNone"> None</div>
+          <div class="grid-item">
+              <input class="cheese" type="radio" name="cheese" value="reg">Regular</div>
+          <div class="grid-item">
+              <input class="cheese" type="radio" name="cheese" value="xCheese">Extra Cheese<br>extra $3</div>
+      </div>
+    <!--End Cheese-->
+
+    <!--Start Sauce-->
+    <div id="sauce" class="container">
+        <p><em><strong>Sauce: </strong>  Pick a sauce next.</em></p>
+    </div>
+      <div class="grid-container">
+          <div class="grid-item">
+              <input class="sauce" type="radio" name="sauce" value="sNone">None</div>
+          <div class="grid-item">
+              <input class="sauce" type="radio" name="sauce" value="marinara"> Marinara</div>
+          <div class="grid-item">
+              <input class="sauce" type="radio" name="sauce" value="white">White</div>
+          <div class="grid-item">
+            <input class="sauce" type="radio" name="sause" value="bbq">B-B-Q</div>
+      </div>
+    <!--End Sauce-->
+
+    <!--Start Meat-->
+    <div id="meat" class="container">
+        <p><em><strong>Meat: </strong>  Now let's have some fun.<br> 
+          Add some meat.  First choice on us. 
+          Each add'l only $1.</em></p>
+    </div>
+      <div class="grid-container">
+          <div class="grid-item">
+              <input class="meat" type="checkbox" name="meat" value="pepperoni">Pepperoni</div>
+          <div class="grid-item">
+              <input class="meat" type="checkbox" name="meat" value="sausage">Sausage</div>
+          <div class="grid-item">
+              <input class="meat" type="checkbox" name="meat" value="bacon">Canadian Bacon</div>
+          <div class="grid-item">
+              <input class="meat" type="checkbox" name="meat" value="anchovy">Anchovy</div>
+          <div class="grid-item">
+              <input class="meat" type="checkbox" name="meat" value="beef">Ground Beef</div>
+          <div class="grid-item">
+              <input class="meat" type="checkbox" name="meat" value="chicken">Chicken</div>
+      </div>
+    <!--End Meat-->
+
+    <!--Start Veggie-->
+    <div id="veggie" class="container">
+        <p><em><strong>Veggies: </strong>  Keep it healthy.<br>
+          Add some veggies.  First choice on us. 
+          Each add'l only $1.</em></p>
+    </div>
+      <div class="grid-container">
+          <div class="grid-item">
+              <input class="veggie" type="checkbox" name="veggie" value="tomato">Tomato</div>
+          <div class="grid-item">
+              <input class="veggie" type="checkbox" name="veggie" value="onion">Onion</div>
+          <div class="grid-item">
+              <input class="veggie" type="checkbox" name="veggie" value="olive">Olive</div>
+          <div class="grid-item">
+              <input class="veggie" type="checkbox" name="veggie" value="pepper">Green Pepper</div>
+          <div class="grid-item">
+              <input class="veggie" type="checkbox" name="veggie" value="mushroom">Mushroom</div>
+          <div class="grid-item">
+              <input class="veggie" type="checkbox" name="veggie" value="pineapple"> Pineapple</div>
+          <div class="grid-item">
+              <input class="veggie" type="checkbox" name="veggie" value="spinach">Spinach</div>
+          <div class="grid-item">
+              <input class="veggie" type="checkbox" name="veggie" value="jalapeno">Jalapeno</div>
+      </div>
+    <!--End Veggie-->
+    
+    <!--Start Order-->
+    <div id="order" class="container">
+        <p><em>Order complete is just a click away.</em></p>
+    </div>
+      <div class="btn-container">
+          <button id="button1" type="show" onclick="getReceipt()">Place Order</button>
+          <button id="button2" type="hide">Cancel</button>
+      </div>
+    <!--End Order-->
+
+    <!--Start Receipt-->
+    <div id="getReceipt">
+        <table>
+            <tr>
+              <th>Item</th>
+              <th>Amount</th>
+            </tr>
+            <tr>
+              <td id="tSize"></td>
+              <td id="sizeTotal"> </td>
+            </tr>
+            <tr>
+              <td id="tCrust"> </td>
+              <td id="crustTotal"> </td>
+            </tr>
+            <tr>
+              <td id="tCheese"> </td>
+              <td id="cheeseTotal"> </td>
+            </tr>
+            <tr>
+              <td id="tSauce"> </td>
+              <td id="sauceTotal"> </td>
+            </tr>
+            <tr>
+              <td id="tMeat"> </td>
+              <td id="meatTotal"> </td>
+            </tr>
+            <tr>
+              <td id="tVeggie"> </td>
+              <td id="veggieTotal"> </td>
+            </tr>
+            <tr>
+                <td id="showText"><strong> </strong></td>
+                <td id="total"><strong></strong> </td>
+            </tr> 
+          </table>
+    </div>
+    <!--End Receipt-->
+
+    <!--Start Footer-->
+    <div class="card-footer text-muted">
+        Powered by Pizzaz Pizzeria
+      </div>
+    <!--End Footer-->
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="pizza.js"></script>
+
+
+    <script>
+        $(document).ready(function() {
+         console.log("Document is ready");
+         $("#button2").click(function() {
+             console.log("hiding receipt");
+           $("#getReceipt").hide();
+         });
+         
+       });
+</script>
+
+    </body>
+    <!--End Body-->
+
+
+    
+  
+</html>
